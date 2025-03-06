@@ -31,3 +31,21 @@ int main()
 
     return 0;
 }
+(3)// calculate simple interst 
+    #include <iostream>
+using namespace std;
+
+int main()
+{
+    float principle,rate,time;
+    std::cout<<"enter principle";
+    cin>>principle;
+     std::cout<<"enter rate";
+     cin>>rate;
+     std::cout<<"enter time";
+     cin>>time;
+    float simple_intrest=(principle*rate*time)/100;
+    std::cout<<"simple interst is "<<simple_intrest<<endl;
+
+    return 0;
+}
