@@ -63,3 +63,17 @@ int main()
 
     return 0;
 }
+(5) //convert miles to kilometer
+    #include <iostream>
+using namespace std;
+
+int main()
+{
+    float melies;
+    std::cout<<"enter melies:";
+    cin>>melies;
+     float km=melies/0.621371;
+    std::cout<< melies<<" melies is eual to kilometer = "<<km<<endl;
+
+    return 0;
+}
