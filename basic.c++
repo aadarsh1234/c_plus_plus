@@ -77,3 +77,21 @@ int main()
 
     return 0;
 }
+(6)// find leap year
+    #include <iostream>
+using namespace std;
+
+int main()
+{
+    int year;
+    std::cout<<"enter year:";
+    cin>>year;
+    if((year % 4==0 && year % 100!=0) || (year %400==0)){
+    std::cout<<year<<":is a leap year"<<endl;
+    }
+    else{
+    std::cout<<year<<":is not leap year"<<endl;
+    }
+    return 0;
+}
+   
