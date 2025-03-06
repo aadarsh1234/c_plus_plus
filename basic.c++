@@ -49,3 +49,17 @@ int main()
 
     return 0;
 }
+(4)//convert celsius in kelvin
+    #include <iostream>
+using namespace std;
+
+int main()
+{
+    float celsius,kelvin;
+    std::cout<<"enter temprature of celsius";
+    cin>>celsius;
+     kelvin=celsius+273.15;
+    std::cout<<"temprature in kelvin :"<<kelvin<<endl;
+
+    return 0;
+}
