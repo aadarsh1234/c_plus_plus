@@ -1,3 +1,4 @@
+(1)//area of circle
 #include <iostream>
 using namespace std;
 
@@ -9,6 +10,24 @@ int main()
     cin>>radius;
     area=pi*radius* radius;
     std::cout<<"area is"<<area;
+
+    return 0;
+}
+(2) //swap two value
+    #include <iostream>
+using namespace std;
+
+int main()
+{
+    float a,b;
+    std::cout<<"enter a";
+    cin>>a;
+     std::cout<<"enter b";
+     cin>>b;
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    std::cout<<"after swap is a="<<a<<",b="<<b<<endl;
 
     return 0;
 }
