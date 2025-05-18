@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+class Factorial{
+    private:
+    int n;
+    public:
+    void calculateFactorial(){
+        cout<<"Enter any number";
+        cin>>n;
+            int fact=1;
+        for (int i=1;i<=n;i++){
+            fact=fact*i;
+        }
+        cout<<"Factorial is :"<<fact;
+    }
+};
+
+int main()
+{
+Factorial f;
+f.calculateFactorial();
+    return 0;
+}
