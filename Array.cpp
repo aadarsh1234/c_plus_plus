@@ -81,3 +81,23 @@ for(int i=0;i<4;i++){
 }
     return 0;
 }
+// serach array
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a[5];
+    for (int i=0;i<5;i++){
+        cout<<"enter element "<<i+1<<":";
+        cin>>a[i];
+    }
+    int key;
+    cout<<"enter the value of key";
+    cin>>key;
+    for (int i=0;i<5;i++){
+        if(a[i]==key){
+            cout<<"index:"<<i;
+        }
+    }
+    return 0;
+}
